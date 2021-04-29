@@ -1,29 +1,161 @@
 /* My first CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffffcc;
-}
-
-img {
-  border: 10px solid green;
 }
 
 h1 {
-  border: 5px dotted red;
+  color: rgb(171, 42, 42);
+  text-align: center;
+  letter-spacing: 1.65rem;
+  padding-bottom: 1rem;
+  font-size: 2.3rem;
+  padding-top: 2rem;
+}
+
+/* intro section */
+
+.introBackground {
+  background-color: rgb(171, 42, 42);
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.introText {
+  padding: 5rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #fff;
+  text-align: left;
 }
 
 blockquote {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 3rem;
+  font-size: 2rem;
   font-style: italic;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-top: 2rem;
+}
+
+cite {
+  font-size: 1rem;
+}
+
+/* Kitten section */
+
+.kittenBackground {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.bigBold {
+  padding-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(96, 93, 93);
+  line-height: 5rem;
   text-align: center;
 }
 
-cite{
-    font-size: 2rem;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid rgba(0, 0, 0, 0);
+  width: 35vh;
 }
 
-.bigBold{
-    font-weight: bold;
-    font-size: 1.3rem;
+/* Peanut List section */
+
+.listsBackground {
+  background-color: rgb(171, 42, 42);
+  margin-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.listsHeadings {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #fff;
+  text-align: left;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.centerList {
+  text-align: left;
+  list-style-position: inside;
+  font-size: 1.1rem;
+  padding-left: 5rem;
+  line-height: 2rem;
+}
+
+/* My Fine List */
+
+.listIntro {
+  text-align: left;
+  padding-left: 5rem;
+  font-size: 1.1rem;
+}
+
+.mainListLinks {
+  text-align: left;
+  list-style-position: inside;
+  font-size: 1rem;
+  padding-left: 5rem;
+}
+
+.listLinks {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+a.links:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a.links:visited {
+  color: rgb(0, 0, 0);
+}
+
+a.links:hover {
+  color: rgb(255, 0, 247);
+  font-size: 1.2rem;
+}
+
+/* Blah section */
+
+.blahSection {
+  padding-bottom: 5rem;
+}
+
+.blahHeadings {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  font-size: 1.3rem;
+  color: rgb(96, 93, 93);
+}
+
+.blahText {
+  text-align: left;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1rem;
+  color: rgb(96, 93, 93);
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(171, 42, 42);
+  padding-bottom: 2rem;
 }
