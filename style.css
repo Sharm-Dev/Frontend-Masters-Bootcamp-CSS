@@ -22,3 +22,8 @@ blockquote {
 cite{
     font-size: 2rem;
 }
+
+.bigBold{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
