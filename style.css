@@ -128,7 +128,6 @@ a.links:visited {
 
 a.links:hover {
   color: rgb(255, 0, 247);
-  font-size: 1.2rem;
 }
 
 /* Blah section */
@@ -151,6 +150,19 @@ a.links:hover {
   padding-right: 5rem;
   font-size: 1rem;
   color: rgb(96, 93, 93);
+}
+
+a.blahLink:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a.blahLink:visited {
+  color: rgb(0, 0, 0);
+}
+
+a.blahLink:hover {
+  color: rgb(255, 0, 247);
 }
 
 /* Footer */
